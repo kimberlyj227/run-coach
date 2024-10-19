@@ -62,7 +62,7 @@ export const Plans = (props) => {
 					</Typography>
 				</Grid>
 				<Grid item xs={12}>
-					<Typography variant='body1' sx={{ textAlign: 'center', color: '#424242' }}>
+					<Typography variant='body1' sx={{ textAlign: 'center', color: '#fff' }}>
 						** Each plan includes an account with Final Surge to schedule and track
 						workouts. **
 					</Typography>
@@ -71,7 +71,7 @@ export const Plans = (props) => {
 					<Divider sx={{ m: 3 }} />
 				</Grid>
 				<Grid item xs={12}>
-					<Grid container justifyContent={'space-between'} spacing={2}>
+					<Grid container justifyContent={'center'} spacing={2}>
 						{props.data
 							? props?.data?.map((d, i) => (
 									<Grid item key={`${d.name}-${i}`} xs={12} md={3.5}>

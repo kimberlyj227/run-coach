@@ -8,12 +8,12 @@ export const CustomButton = ({ onClick, label, theme = 'yellow' }) => {
 				background: 'transparent',
 				border: '1px solid #fff',
 				textTransform: 'uppercase',
-				color: '#fff',
+				color: theme === 'yellow' ? '#fff' : '#4E4B5C',
 				backgroundColor: '#ffcb5d',
 				backgroundImage:
 					theme === 'yellow'
 						? 'linear-gradient(to left, #ffcb5d 0%, #f4ac4e 100%)'
-						: 'linear-gradient(to right, #0097a7 0%, #4dd0e1 100%)',
+						: 'linear-gradient(to right, #fef3ea 0%, #FCDEC5 100%)',
 				padding: '14px 34px',
 				letterSpacing: '1px',
 				margin: 0,
@@ -23,8 +23,7 @@ export const CustomButton = ({ onClick, label, theme = 'yellow' }) => {
 				transition: 'all 0.5s linear',
 				border: 0,
 				'&:hover': {
-					background: theme === 'yellow' ? '#f4ac4e' : '#0097a7',
-					color: '#fff'
+					background: theme === 'yellow' ? '#f4ac4e' : '#FCDEC5'
 				}
 			}}
 			onClick={onClick}

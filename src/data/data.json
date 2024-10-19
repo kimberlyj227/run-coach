@@ -23,44 +23,43 @@
 	"Plans": [
 		{
 			"img": "startLine",
-			"name": "Starting Line",
-      "formLink": "https://docs.google.com/forms/d/e/1FAIpQLSeeiSDL5OpUoiWfogF4CX-KkZzV982W1ORKJQLCFL6a29VHFA/viewform?usp=pp_url&entry.1914869445=Starting+Line",
+			"name": "Full Plan",
 			"text": [
 				{
 					"bullet": "Personalized Training Plan",
-					"description": "Receive a custom training plan tailored to your goals and current fitness level.",
+					"description": "Receive a custom training plan tailored to your goals and current fitness level. We will discuss your goals and fitness level and you will receive the full plan up front.",
 					"id": 1
 					
 				},
 				{
-					"bullet": "Once a Month Check-Ins",
-					"description": "Get a check-in from me every month to review your progress, answer questions, and make any necessary adjustments to your plan.",
+					"bullet": "Self Directed ",
+					"description": "Perfect for athletes who want a personalized plan, need a little guidance on where to start and don't require frequent communication.",
 					"id": 2
 					
 				},
 				{
-					"bullet": "Self Directed ",
-					"description": "Perfect for athletes who want a personalized plan but don't require weekly communication.",
+					"bullet": "Unlimited Question Support",
+					"description": "Feel free to email your questions to me at anytime!",
 					"id": 3
 					
 				}
+				
 			],
-			"price": "$95 / month"
+			"price": "$95 / plan"
 		},
 		{
 			"img": "steadyStride",
-			"name": "Steady Stride",
-      "formLink": "https://docs.google.com/forms/d/e/1FAIpQLSeeiSDL5OpUoiWfogF4CX-KkZzV982W1ORKJQLCFL6a29VHFA/viewform?usp=pp_url&entry.1914869445=Steady+Stride",
+			"name": "1:1 Coaching",
 			"text": [
 				{
 					"id": 11,
 					"bullet": "Personalized Training Plan",
-					"description": "Enjoy a tailored training plan with unlimited updates to keep you on track."
+					"description": "Enjoy a tailored training plan with unlimited updates to keep you on track. We will discuss your goals and fitness level and you will updated plans weekly."
 				},
 				{
 					"id": 12,
-					"bullet": "Twice-Weekly Check-Ins",
-					"description": "Benefit from check-ins twice a week to ensure you're progressing smoothly and to address any challenges you may face."
+					"bullet": "Weekly Check-Ins",
+					"description": "Benefit from check-ins every week to ensure you're progressing smoothly and to address any challenges you may face."
 				},
 				{
 					"id": 13,
@@ -69,30 +68,8 @@
 				}
 			],
 			"price": "$130 / month"
-		},
-		{
-			"img": "peakPerformance",
-			"name": "Peak Performance",
-      "formLink": "https://docs.google.com/forms/d/e/1FAIpQLSeeiSDL5OpUoiWfogF4CX-KkZzV982W1ORKJQLCFL6a29VHFA/viewform?usp=pp_url&entry.1914869445=Peak+Performance",
-			"text": [
-				{
-					"id": 31,
-					"bullet": "Personalized Training Plan",
-					"description": "Start with a custom training plan that evolves with you."
-				},
-				{
-					"id": 32,
-					"bullet": "Unlimited Check-Ins",
-					"description": "Stay constantly connected with unlimited check-ins, including two phone calls per month for more in-depth discussions about your progress, adjustments to your plan, and personalized advice to help you succeed."
-				},
-				{
-					"id": 33,
-					"bullet": "Unlimited Plan Updates",
-					"description": "Your plan will be updated as often as needed to match your evolving goals and progress."
-				}
-			],
-			"price": "$170 / month"
 		}
+		
 	],
 
 	"Contact": {
